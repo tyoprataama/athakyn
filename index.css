@@ -122,7 +122,6 @@ nav {
 
 .slider-price {
     position: absolute;
-
     top: 10%;
     left: 10%;
     font-size: 50px;
@@ -138,19 +137,19 @@ nav {
 }
 
 .slider-item:nth-child(2) .slider-price {
-    color: #f1a8df;
+    color: #A685E2;
 }
 
 .slider-item:nth-child(3) .slider-price {
-    color: #e6dd85;
+    color: #999B84;
 }
 
 .slider-item:nth-child(4) .slider-price {
-    color: #f1a8df;
+    color: #ae77a0;
 }
 
 .slider-item:nth-child(5) .slider-price {
-    color: #e6dd85;
+    color: #6ea3a3;
 }
 
 .buy-btn {

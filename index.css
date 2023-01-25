@@ -25,15 +25,6 @@ nav {
     font-weight: 700;
 }
 
-.search-input {
-    border: none;
-    background-color: transparent;
-}
-
-.search-input::placeholder {
-    color: lightgray;
-}
-
 .limited-offer {
     font-size: 20px;
     border-bottom: 2px solid #000;
@@ -58,7 +49,7 @@ nav {
 }
 
 .menu-item:hover {
-    color: rgba(160, 160, 160, 0.933);
+    color: rgba(252, 157, 255, 0.933);
     transition: all 0.5s ease;
 }
 
@@ -229,3 +220,34 @@ nav {
     }
 }
 
+.features{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.feature{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.feature-image{
+    width: 200px;
+    height: 200px;
+}
+
+.feature-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 20px;
+}
+
+.feature-desc{
+    color: gray;
+    width: 50%;
+    height: 100px;
+}

@@ -58,7 +58,7 @@ const products = [{
     },
     {
         id: 5,
-        title: 'AKSESORIS KUCING',
+        title: 'AKSESORIS',
         price: 19,
         colors: [{
                 code: 'grey',

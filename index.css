@@ -5,8 +5,8 @@ body{
 }
 
 nav{
-    background: #000;
-    color: #fff;
+    background: #fff;
+    color: #000;
     padding: 20px 50px;
 }
 
@@ -39,7 +39,7 @@ nav{
 
 .limited-offer{
     font-size: 20px;
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid #000;
     cursor: pointer;
 }
 
@@ -58,16 +58,16 @@ nav{
 .menu-item{
     margin-right: 50px;
     cursor: pointer;
-    color: lightgray;
+    color: #000;
     font-weight: 500;
 }
 
 .menu-item:hover{
-    color: #fff;
+    color: rgba(160, 160, 160, 0.933);
 }
 
 .slider{
-    background-color: #FEFCF3;
+    background-color: #86A3B8;
     color: #000;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
     overflow: hidden;

@@ -427,6 +427,19 @@ label {
     padding: 2px;
 }
 
+.gallery {
+    padding: 50px;
+    display: flex;
+}
+
+.galleryItem {
+    flex: 1;
+    padding: 50px;
+}
+
+.galleryImg {
+    width: 100%;
+}
 
 .fab-icon {
     margin-top: 16px;

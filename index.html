@@ -15,28 +15,30 @@
 </head>
 
 <body>
-    <nav>
-        <div class="nav-top">
-            <div class="nav-item">
-                <img src="./img/logo.svg" width="80" height="80" alt="">
-            </div>
-            <div class="nav-item">
-                <div class="search">
-                    <span class="logo">phandakids</span>
+    <section>
+        <nav id="nav">
+            <div class="nav-top">
+                <div class="nav-item">
+                    <img src="./img/logo.svg" width="80" height="80" alt="">
+                </div>
+                <div class="nav-item">
+                    <div class="search">
+                        <span class="logo"><span class="logo-pink">phanda</span>kids</span>
+                    </div>
+                </div>
+                <div class="nav-item">
+                    <span class="location"><i class="fa-solid fa-location-dot loc-icon"></i>Kediri</span>
                 </div>
             </div>
-            <div class="nav-item">
-                <span class="limited-offer">Limited offer</span>
+            <div class="nav-bottom">
+                <h3 class="menu-item">Polo</h3>
+                <h3 class="menu-item">Kaos</h3>
+                <h3 class="menu-item">Setelan</h3>
+                <h3 class="menu-item">Koleksi</h3>
+                <h3 class="menu-item">Aksesoris</h3>
             </div>
-        </div>
-        <div class="nav-bottom">
-            <h3 class="menu-item">Polo</h3>
-            <h3 class="menu-item">Kaos</h3>
-            <h3 class="menu-item">Setelan</h3>
-            <h3 class="menu-item">Koleksi</h3>
-            <h3 class="menu-item">Aksesoris</h3>
-        </div>
-    </nav>
+        </nav>
+    </section>
 
     <section>
         <header>
@@ -140,33 +142,38 @@
                     <div class="size">2 thn</div>
                     <div class="size">3 thn</div>
                 </div>
-                <button class="product-button">BELI SEKARANG</button>
+                <div class="btn-beli">
+                    <button class="product-button">BELI SEKARANG</button>
+                    <button class="product-button">BELI DI SHOPEE</button>
+                </div>
             </div>
         </div>
     </section>
 
     <section>
         <div class="payment">
-            <h1 class="payTitle">Personal Information</h1>
-            <label>Nama Lengkap</label>
-            <input type="text" placeholder="John Doe" class="payInput">
-            <label>Nomor Telepon</label>
-            <input type="text" placeholder="+1 234 5678" class="payInput">
-            <label>Alamat</label>
-            <input type="text" placeholder="Elton St 21 22-145" class="payInput">
-            <h1 class="payTitle">Card Information</h1>
-            <div class="cardIcons">
-                <img src="./img/visa.svg.png" width="40" alt="" class="cardIcon">
-            </div>
-            <input type="password" class="payInput" placeholder="Card Number">
-            <div class="cardInfo">
-                <input type="text" placeholder="mm" class="payInput sm">
-                <input type="text" placeholder="yyyy" class="payInput sm">
-                <input type="text" placeholder="cvv" class="payInput sm">
-            </div>
-            <button class="payButton">Checkout!</button>
-            <span class="close">X</span>
+            <form>
+                <h1 class="payTitle">Personal Information</h1>
+                <label>Nama Lengkap</label>
+                <input type="text" placeholder="John Doe" class="payInput">
+                <label>Nomor Telepon</label>
+                <input type="text" placeholder="+628123456789" class="payInput">
+                <label>Alamat</label>
+                <input type="text" placeholder="Jl.Mega Mendung, No.12, Kediri, Jawa Timur" class="payInput">
+                <h1 class="payTitle">Card Information</h1>
+                <div class="cardIcons">
+                    <img src="./img/visa.svg.png" width="40" alt="" class="cardIcon">
+                </div>
+                <input type="password" class="payInput" placeholder="Card Number">
+                <div class="cardInfo">
+                    <input type="text" placeholder="mm" class="payInput sm">
+                    <input type="text" placeholder="yyyy" class="payInput sm">
+                    <input type="text" placeholder="cvv" class="payInput sm">
+                </div>
+                <button class="payButton">Checkout!</button>
+                <span class="close">X</span>
         </div>
+        </form>
         </div>
     </section>
 
@@ -209,6 +216,64 @@
                     alt="" class="nsImg">
             </div>
         </div>
+    </section>
+
+    <section>
+        <footer>
+            <div class="footerLeft">
+                <div class="footerMenu">
+                    <h1 class="fMenuTitle">About Us</h1>
+                    <ul class="fList">
+                        <li class="fListItem">Company</li>
+                        <li class="fListItem">Contact</li>
+                        <li class="fListItem">Careers</li>
+                        <li class="fListItem">Affiliates</li>
+                        <li class="fListItem">Stores</li>
+                    </ul>
+                </div>
+                <div class="footerMenu">
+                    <h1 class="fMenuTitle">Useful Links</h1>
+                    <ul class="fList">
+                        <li class="fListItem">Support</li>
+                        <li class="fListItem">Refund</li>
+                        <li class="fListItem">FAQ</li>
+                        <li class="fListItem">Feedback</li>
+                        <li class="fListItem">Stories</li>
+                    </ul>
+                </div>
+                <div class="footerMenu">
+                    <h1 class="fMenuTitle">Products</h1>
+                    <ul class="fList">
+                        <li class="fListItem">Polo</li>
+                        <li class="fListItem">Kaos</li>
+                        <li class="fListItem">Setelan</li>
+                        <li class="fListItem">Koleksi</li>
+                        <li class="fListItem">Aksesoris</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footerRight">
+                <div class="footerRightMenu">
+                    <h1 class="fMenuTitle">Subscribe to our newsletter</h1>
+                    <div class="fMail">
+                        <input type="text" placeholder="your@email.com" class="fInput">
+                        <button class="fButton">Join!</button>
+                    </div>
+                </div>
+                <div class="footerRightMenu">
+                    <h1 class="fMenuTitle">Follow Us</h1>
+                    <div class="fIcons">
+                        <i class="fa-brands fa-facebook fIcon"></i>
+                        <i class="fa-brands fa-twitter fIcon"></i>
+                        <i class="fa-brands fa-instagram fIcon"></i>
+                        <i class="fa-brands fa-whatsapp fIcon"></i>
+                    </div>
+                </div>
+                <div class="footerRightMenu">
+                    <span class="copyright">@PhandaKids. All rights reserved. 2023.</span>
+                </div>
+            </div>
+        </footer>
     </section>
 
     <a href="#" class="floating" target="_blank">

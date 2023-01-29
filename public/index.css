@@ -583,7 +583,7 @@ label {
     }
 }
 
-@media(max-width:480px) {
+@media(max-width:340px) {
     .box-top {
         flex-wrap: wrap;
         margin-bottom: 10px;

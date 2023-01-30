@@ -1,4 +1,5 @@
 const wrapper = document.querySelector('.slider-wrap');
+const featureWrap = document.querySelector('.feature-wrap');
 const menuItems = document.querySelectorAll('.menu-item');
 const products = [{
         id: 1,
@@ -82,6 +83,7 @@ menuItems.forEach((item, index) => {
     item.addEventListener("click", () => {
         //change the current slide
         wrapper.style.transform = `translateX(${-100 * index}vw)`;
+        featureWrap.style.transform = `translateX(${-100 * index}vw)`;
         //change the choosen product
         choosenProduct = products[index];
         //change texts of currentProduct

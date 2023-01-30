@@ -239,18 +239,27 @@ a {
 
 .features {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 50px;
+    overflow: hidden;
 }
 
-.feature {
+.feature-item {
     display: flex;
-    flex-direction: column;
+    padding: 50px;
     text-align: center;
     align-items: center;
-    padding: 30px;
-    overflow: hidden;
+    transition: all 1s ease-in-out;
+    width: 500vh;
+}
+.feature {
+    flex-direction: column;
+}
+.feature-wrap {
+    display: flex;
+    width: 500vw;
+    transition: all 1s ease-in-out;
 }
 
 .feature-image {
@@ -275,11 +284,13 @@ a {
     border: 1px solid #000;
     color: #000;
     background-color: #fff;
+    cursor: pointer;
+    font-weight: 600;
 }
 .hero-btn:hover {
     background-color: #000;
     color: #fff;
-    transition: all 0,5s ease;
+    transition: all 0.5s ease;
 }
 
 .product {
@@ -477,11 +488,9 @@ label {
 }
 
 .testimonial-heading h1 {
-    font-size: 2.2rem;
-    font-weight: 500;
-    background-color: #202020;
-    color: #ffffff;
-    padding: 10px 20px;
+    font-size: 30px;
+    font-weight: 800;
+    color: #000;
 }
 
 .testimonial-heading span {
@@ -752,8 +761,18 @@ footer {
         top: unset;
     }
 
-    .features {
+    .feature-wrap {
+        display: flex;
         flex-direction: column;
+        width: 400px;
+        height: 1400px;
+        justify-content: center;
+    }
+    .feature{
+        flex-direction: column;
+        align-items: center;
+        width: 320px;
+        align-items: center;
     }
     .feature-image {
         width: 300px;

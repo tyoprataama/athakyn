@@ -83,7 +83,7 @@ menuItems.forEach((item, index) => {
     item.addEventListener("click", () => {
         //change the current slide
         wrapper.style.transform = `translateX(${-100 * index}vw)`;
-        featureWrap.style.transform = `translateX(${-100 * index}vw)`;
+        featureWrap.style.transform = `translateX(${-110 * index}vw)`;
         //change the choosen product
         choosenProduct = products[index];
         //change texts of currentProduct
